@@ -1,0 +1,4 @@
+org\ithan\ssm\service\impl\OrdersServiceImpl.class
+org\ithan\ssm\service\impl\ProductServiceImpl.class
+org\ithan\ssm\service\IOrdersService.class
+org\ithan\ssm\service\IProductService.class
