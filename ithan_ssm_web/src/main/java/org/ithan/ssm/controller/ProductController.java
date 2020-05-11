@@ -39,7 +39,7 @@ public class ProductController {
         ModelAndView mv = new ModelAndView();
         List<Product> ps = productService.findAll();
         mv.addObject("productList",ps);
-        mv.setViewName("product-list");
+        mv.setViewName("product-list1");
         return mv;
     }
 

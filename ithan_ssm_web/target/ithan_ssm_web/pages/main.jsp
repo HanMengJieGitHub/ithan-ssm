@@ -252,12 +252,12 @@
 				locale : 'zh-CN'
 			});
 
-			$(".treeview").click(function () {
-				var $menu = $(this).children(".treeview-menu");
-				$menu.slideDown(500);
-				$(this).siblings().children(".treeview-menu").slideUp(500);
-				console.log($(this).children(".treeview-menu"));
-			});
+			// $(".treeview").click(function () {
+			// 	var $menu = $(this).children(".treeview-menu");
+			// 	$menu.slideDown(500);
+			// 	$(this).siblings().children(".treeview-menu").slideUp(500);
+			// 	console.log($(this).children(".treeview-menu"));
+			// });
 		});
 
 		// 设置激活菜单

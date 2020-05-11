@@ -21,17 +21,27 @@ import java.util.List;
 public class OrderController {
     @Autowired
     private IOrdersService ordersService;
+
     @RequestMapping("/findAll.do")
-    public ModelAndView findAll(@RequestParam(name = "page" ,defaultValue = "1",required = true)int page,
-                                @RequestParam(name = "size" ,defaultValue = "4",required = true)int size)
-                                throws Exception {
+    public ModelAndView findAll(@RequestParam(name = "page", defaultValue = "1", required = true) int page,
+                                @RequestParam(name = "size", defaultValue = "4", required = true) int size)
+            throws Exception {
         ModelAndView mv = new ModelAndView();
 
-        List<Orders> orders = ordersService.findAll(page,size);
+        List<Orders> orders = ordersService.findAll(page, size);
         PageInfo pageInfo = new PageInfo(orders);
-        mv.addObject("pageInfo",pageInfo);
+        mv.addObject("pageInfo", pageInfo);
         mv.setViewName("orders-page-list");
 
+        return mv;
+    }
+
+    @RequestMapping("/findById.do")
+    public ModelAndView findById(Integer id) throws Exception {
+        Orders orders = ordersService.findById(id);
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("order-show");
+        mv.addObject("orders", orders);
         return mv;
     }
 

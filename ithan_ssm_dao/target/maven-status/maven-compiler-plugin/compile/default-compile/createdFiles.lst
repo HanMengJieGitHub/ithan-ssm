@@ -1,2 +1,4 @@
 org\ithan\ssm\dao\IProductDao.class
+org\ithan\ssm\dao\IMemberDao.class
 org\ithan\ssm\dao\IOrdersDao.class
+org\ithan\ssm\dao\ITravellerDao.class
