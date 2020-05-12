@@ -1,2 +1,3 @@
 org\ithan\ssm\controller\OrderController.class
 org\ithan\ssm\controller\ProductController.class
+org\ithan\ssm\controller\UserController.class

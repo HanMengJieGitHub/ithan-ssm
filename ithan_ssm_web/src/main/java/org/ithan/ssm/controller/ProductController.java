@@ -2,11 +2,15 @@ package org.ithan.ssm.controller;
 
 import org.ithan.ssm.domain.Product;
 import org.ithan.ssm.service.IProductService;
+import org.ithan.ssm.utils.DateStringEditor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -18,6 +22,11 @@ import java.util.List;
 public class ProductController {
     @Autowired
     private IProductService productService;
+
+//    @InitBinder
+//    public void  initBinder(WebDataBinder binder){
+//        binder.registerCustomEditor(Date.class,new DateStringEditor());
+//    }
 
     /**
      * 产品添加

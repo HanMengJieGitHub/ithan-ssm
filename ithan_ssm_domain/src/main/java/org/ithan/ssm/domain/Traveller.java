@@ -10,9 +10,11 @@ public class Traveller {
     private String sex;
     private String phoneNum;
     private Integer credentialsType;
-    private String credentialsTypeStr;
+    private String credentialsTypeStr; //证件类型 0身份证 1护照 2 军官证
     private String credentialsNum;
     private Integer travellerType;
+    private String travellerTypeStr; //游客类型 0成人 1儿童
+
 
     public Integer getId() {
         return id;
@@ -55,6 +57,15 @@ public class Traveller {
     }
 
     public String getCredentialsTypeStr() {
+        if (credentialsType!=null){
+            if (credentialsType==0){
+                credentialsTypeStr="身份证";
+            }else if(credentialsType==1){
+                credentialsTypeStr="护照";
+            }else if(credentialsType==2){
+                credentialsTypeStr="军官证";
+            }
+        }
         return credentialsTypeStr;
     }
 
@@ -79,14 +90,19 @@ public class Traveller {
     }
 
     public String getTravellerTypeStr() {
+        if (travellerType!=null){
+            if(travellerType==0){
+                travellerTypeStr="成人";
+            }else if (travellerType==1){
+                travellerTypeStr="儿童";
+            }
+        }
         return travellerTypeStr;
     }
 
     public void setTravellerTypeStr(String travellerTypeStr) {
         this.travellerTypeStr = travellerTypeStr;
     }
-
-    private String travellerTypeStr;
 
 
 }

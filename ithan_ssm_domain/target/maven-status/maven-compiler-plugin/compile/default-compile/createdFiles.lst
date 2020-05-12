@@ -1,4 +1,7 @@
 org\ithan\ssm\domain\Orders.class
 org\ithan\ssm\domain\Member.class
 org\ithan\ssm\domain\Traveller.class
+org\ithan\ssm\domain\Permission.class
 org\ithan\ssm\domain\Product.class
+org\ithan\ssm\domain\Role.class
+org\ithan\ssm\domain\UserInfo.class
