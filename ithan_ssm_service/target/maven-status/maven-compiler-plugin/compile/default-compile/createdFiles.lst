@@ -1,4 +1,6 @@
+org\ithan\ssm\service\ISysLogService.class
 org\ithan\ssm\service\impl\ProductServiceImpl.class
+org\ithan\ssm\service\impl\SysLosService.class
 org\ithan\ssm\service\IPermissionService.class
 org\ithan\ssm\service\IRoleService.class
 org\ithan\ssm\service\IUserService.class
