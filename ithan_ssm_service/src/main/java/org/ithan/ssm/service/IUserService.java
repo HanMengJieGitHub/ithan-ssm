@@ -1,5 +1,6 @@
 package org.ithan.ssm.service;
 
+import org.ithan.ssm.domain.Role;
 import org.ithan.ssm.domain.UserInfo;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
@@ -16,4 +17,9 @@ public interface IUserService extends UserDetailsService {
     void save(UserInfo userInfo)throws Exception;
 
     UserInfo findById(Integer id) throws Exception;
+
+    void addRoleToUser(Integer userId, Integer[] roleIds);
+
+    List<Role> findOtherRoles(Integer userid);
+
 }

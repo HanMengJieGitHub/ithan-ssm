@@ -1,6 +1,10 @@
 D:\IntelliJIDEAWorkspaces\ithan_ssm\ithan_ssm_service\src\main\java\org\ithan\ssm\service\IProductService.java
 D:\IntelliJIDEAWorkspaces\ithan_ssm\ithan_ssm_service\src\main\java\org\ithan\ssm\service\IOrdersService.java
+D:\IntelliJIDEAWorkspaces\ithan_ssm\ithan_ssm_service\src\main\java\org\ithan\ssm\service\impl\PermissionServiceImpl.java
+D:\IntelliJIDEAWorkspaces\ithan_ssm\ithan_ssm_service\src\main\java\org\ithan\ssm\service\IPermissionService.java
 D:\IntelliJIDEAWorkspaces\ithan_ssm\ithan_ssm_service\src\main\java\org\ithan\ssm\service\IUserService.java
+D:\IntelliJIDEAWorkspaces\ithan_ssm\ithan_ssm_service\src\main\java\org\ithan\ssm\service\impl\RoleServiceImpl.java
 D:\IntelliJIDEAWorkspaces\ithan_ssm\ithan_ssm_service\src\main\java\org\ithan\ssm\service\impl\OrdersServiceImpl.java
+D:\IntelliJIDEAWorkspaces\ithan_ssm\ithan_ssm_service\src\main\java\org\ithan\ssm\service\IRoleService.java
 D:\IntelliJIDEAWorkspaces\ithan_ssm\ithan_ssm_service\src\main\java\org\ithan\ssm\service\impl\UserServiceImpl.java
 D:\IntelliJIDEAWorkspaces\ithan_ssm\ithan_ssm_service\src\main\java\org\ithan\ssm\service\impl\ProductServiceImpl.java

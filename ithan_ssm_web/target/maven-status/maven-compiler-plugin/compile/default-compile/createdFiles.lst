@@ -1,3 +1,5 @@
 org\ithan\ssm\controller\OrderController.class
 org\ithan\ssm\controller\ProductController.class
+org\ithan\ssm\controller\PermissionController.class
+org\ithan\ssm\controller\RoleController.class
 org\ithan\ssm\controller\UserController.class

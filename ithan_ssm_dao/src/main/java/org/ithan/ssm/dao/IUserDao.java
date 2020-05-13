@@ -46,4 +46,10 @@ public interface IUserDao {
     })
     UserInfo findById(Integer id) throws Exception;
 
+    @Select("select * from role where id not in (select roleId from users_role where userId=#{userId})")
+    List<Role> findOtherRoles(Integer userId);
+
+
+    @Insert("insert into users_role(userId,roleId) values(#{userId},#{roleId})")
+    void addRoleToUser(@Param("userId") Integer userId, @Param("roleId") Integer roleId);
 }

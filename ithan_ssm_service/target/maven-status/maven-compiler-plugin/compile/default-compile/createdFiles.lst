@@ -1,6 +1,10 @@
-org\ithan\ssm\service\impl\OrdersServiceImpl.class
 org\ithan\ssm\service\impl\ProductServiceImpl.class
+org\ithan\ssm\service\IPermissionService.class
+org\ithan\ssm\service\IRoleService.class
+org\ithan\ssm\service\IUserService.class
+org\ithan\ssm\service\impl\OrdersServiceImpl.class
 org\ithan\ssm\service\impl\UserServiceImpl.class
 org\ithan\ssm\service\IOrdersService.class
+org\ithan\ssm\service\impl\PermissionServiceImpl.class
+org\ithan\ssm\service\impl\RoleServiceImpl.class
 org\ithan\ssm\service\IProductService.class
-org\ithan\ssm\service\IUserService.class
